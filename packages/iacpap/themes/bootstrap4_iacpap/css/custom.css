@@ -1,0 +1,14 @@
+div.ccm-panel-content ul.nav, div.ccm-panel-content menu {
+    display:block;
+}
+#ccm-theme-grid-edit-mode-row-wrapper {
+    display: flex;
+    width:100%;
+}
+.ccm-ui .radio input[type="radio"], .ccm-ui .radio-inline input[type="radio"], .ccm-ui .checkbox input[type="checkbox"], .ccm-ui .checkbox-inline input[type="checkbox"] {
+    width: auto;
+}
+.ccm-ui .input-group-addon {
+    width: 10%;
+}
+.ccm-edit-mode-block-menu.popover, .popover  {visibility: visible;}

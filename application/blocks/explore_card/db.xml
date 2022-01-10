@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btExploreCard">
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+        <field name="img" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="title" type="C" size="255"></field>
+        <field name="btn" type="I"></field>
+        <field name="btn_text" type="C"></field>
+    </table>
+</schema>

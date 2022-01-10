@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btGreenContentWithImageAndBg">
+        <field name="bID" type="I">
+            <key/>
+            <unsigned/>
+        </field>
+        <field name="bgimg" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="blacktitle" type="C" size="255"></field>
+        <field name="greentitle" type="C" size="255"></field>
+        <field name="desc_1" type="X"></field>
+        <field name="img" type="I">
+            <default value="0"/>
+            <unsigned/>
+        </field>
+    </table>
+</schema>
